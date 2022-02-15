@@ -7,6 +7,7 @@
 /*GENERICS*/
 body{
     background-color: hsl(219deg 26% 11%);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header{
@@ -14,6 +15,7 @@ body{
     height: 90px;
     width: 90%;
     float: right;
+ 
 }
 
 .left-bar{
@@ -28,4 +30,28 @@ body{
     background-color: hsl(0deg 0% 16%);
     height: 90px;
     width: 100%;
+}
+
+/*UTILITIES*/
+.white{
+    color: white;
+}
+
+.txtNONE{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+/*CONTENT*/
+.header a{
+    font-size: 80%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    float: right;
+    margin: 20px 10px 0px 0px;
+    
 }
