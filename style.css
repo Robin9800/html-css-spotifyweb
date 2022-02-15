@@ -18,14 +18,6 @@ body{
  
 }
 
-
-
-.play-bar{
-    background-color: hsl(0deg 0% 16%);
-    height: 90px;
-    width: 100%;
-}
-
 /*UTILITIES*/
 .white{
     color: white;
@@ -49,6 +41,10 @@ body{
 
 .A-center{
     align-items: center;
+}
+
+.J-center{
+    justify-content: center;
 }
 
 /*CONTENT*/
@@ -80,8 +76,34 @@ body{
 .left-bar :nth-child(2){
     color: hsl(0deg 0% 82%);;
 }
-.nav-bottom >a{
-    font-size: 20px;
+
+/*play-bar*/
+.play-bar{
+    background-color: hsl(0deg 0% 16%);
+    height: 90px;
+    flex-direction: row;
+   
 }
 
+.nav-left-1{
+    height: 100%;
+    margin-left: 10px;
+    align-items: center;
+}
 
+.nav-left-1 img{
+    width: 32px;
+    height: 32px; 
+}
+
+.nav-left-2{
+    margin: 0px 20px 0px 10px;
+}
+
+.nav-left-2 h1{
+    font-size: 12px;
+}
+
+.nav-left-2 h2{
+    font-size: 10px;
+}
