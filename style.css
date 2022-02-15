@@ -37,12 +37,24 @@ body{
     color: white;
 }
 
+.grey{
+    color: hsl(0deg 0% 54%);
+}
+
 .txtNONE{
     text-decoration: none;
 }
 
 .flex{
     display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.A-center{
+    align-items: center;
 }
 
 /*CONTENT*/
@@ -54,4 +66,13 @@ body{
     float: right;
     margin: 20px 10px 0px 0px;
     
+}
+
+.left-bar i{
+    font-size: 26px;
+    margin: 6px 0px 12px 0px;
+}
+
+.left-bar :first-child{
+    font-size: 30px;
 }
