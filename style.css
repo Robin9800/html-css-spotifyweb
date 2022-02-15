@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*GENERICS*/
+body{
+    background-color: hsl(219deg 26% 11%);
+}
+
+.header{
+    background-color: hsl(222deg 38% 5%);
+    height: 90px;
+    width: 90%;
+    float: right;
+}
+
+.left-bar{
+    position: relative;
+    background-color: hsl(0deg 0% 0%);
+    width: 10%;
+    height: 100vh;
+}
+
+
+.play-bar{
+    background-color: hsl(0deg 0% 16%);
+    height: 90px;
+    width: 100%;
+}
