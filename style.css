@@ -9,519 +9,305 @@ body{
     background-color: hsl(219deg 26% 11%);
     font-family: 'Montserrat', sans-serif;
 }
-
-@media screen and (max-width: 360px){
     
 
-    .header{
-        background-color: hsl(222deg 38% 5%);
-        height: 9vh;
-        width: 90%;
-        float: right;
-    }
-
-    /*UTILITIES*/
-    .white{
-        color: white;
-    }
-
-    .grey{
-        color: hsl(0deg 0% 54%);
-    }
-
-    .txtNONE{
-        text-decoration: none;
-    }
-
-    .flex{
-        display: flex;
-    }
-
-    .column{
-        flex-direction: column;
-    }
-
-    .A-center{
-        align-items: center;
-    }
-
-    .J-center{
-        justify-content: center;
-    }
-
-    .center{
-        text-align: center;
-    }
-
-    /*CONTENT*/
-    .header a{
-        font-size: 40%;
-        border-radius: 20px;
-        border: 1px solid white;
-        padding: 10px 40px;
-        float: right;
-        margin: 14px 4px 0px 0px;
-        
-    }
-
-    /*main*/
-    .main{
-        float: right;
-        height: 87vh;
-        width: 90%;
-        overflow: auto;
-    }
-
-    nav{
-        height: 12%;
-    }
-
-    .main ul{
-        font-size: 7px;
-        list-style-type: none;
-        text-align: center;
-    }
-
-    .main li{
-        margin: 14px 13px;
-        display: inline-block;
-
-    }
-
-    .main a{
-        text-decoration: none;
-        color: hsl(214deg 3% 49%);
-    }
-
-    .evidenza{
-        padding-bottom: 3px;
-        border-bottom: 2px solid hsl(84deg 67% 51%);
-    }
-
-    .recently{
-        height: fit-content;
-        
-    }
-
-    .recently h1{
-        font-size: 16px;
-        margin: 12px 0px 9px 13px;
-    }
-
-    .musiche{
-        margin: 10px 13px;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .musiche img{
-        width: 100%;
-    }
-
-    .musica{
-        width: 48%;
-    }
-
-    .musica h1{
-        font-size: 11px;
-        margin-top: 12px;
-        margin-bottom: 6px;
-    }
-    .musica h2,.font{
-        font-size: 8px;
-        margin-bottom: 11px;
-    }
-
-    /*creato per Robin*/
-    #h1{
-        margin: 20px 0px 10px 0px;
-        font-size: 16px;
-    }
-
-    #altre-sezioni{
-        margin: 10px 0px;
-    }
-
-
-
-    /*left bar*/
-    .left-bar{
-        background-color: hsl(0deg 0% 0%);
-        height: 92vh;
-        justify-content: space-between;
-        
-    }
-
-    .left-bar i{
-        margin: 6px 0px 4px 0px;
-    }
-
-    .left-bar :nth-child(1){
-        font-size: 18px;
-    }
-
-    .left-bar :nth-child(2){
-        color: hsl(0deg 0% 82%);;
-    }
-
-    /*play-bar*/
-    .play-bar{
-        background-color: hsl(0deg 0% 16%);
-        height: 8vh;
-        width: 100%;
-        position: absolute;
-        flex-direction: row;
-    
-    }
-    /*nav-left*/
-    .nav-left-1{
-        margin-left: 10px;
-        align-items: center;
-    }
-
-    .nav-left-1 img{
-        width: 18px;
-        height: 18px; 
-    }
-
-    .nav-left-2{
-        margin: 0px 14px 0px 6px;
-        font-size: 10px;
-    }
-
-    .nav-left-2 h1{
-        font-size: 8px;
-    }
-
-    .nav-left-2 h2{
-        margin-top: 1px;
-        font-size: 7px;
-    }
-    /*nav-center*/
-
-    .nav-center{
-        justify-content: center;
-    }
-
-    .nav-center-top{
-        margin-left: 10px;
-        margin-top: 0px;
-        
-    }
-
-    .nav-center-top a{
-        margin: 0px 6px;
-        font-size: 10px;
-    }
-
-    .arrow{
-        font-size: 24px;
-    }
-
-    #play{
-        font-size: 20px;
-        margin: 0px 20px;
-    }
-
-    .nav-center-bottom{
-        margin-left: 12px;
-        margin-top: 5px;
-    }
-
-    .nav-center-bottom p{
-        font-size: 6px;
-        margin:0px 4px;
-    }
-
-    .riproduzione{
-        background-color: hsl(0deg 0% 35%);
-        margin: 0px 8px;
-        width: 75px;
-        height: 3px;
-        border-radius: 20px;
-        
-    }
-
-    .caricamento,.volume-massimo{
-        border-radius: 20px;
-        height: 100%;
-        width: 20%;
-        background-color: hsl(0deg 0% 76%);;
-    }
-
-    /*nav-right*/
-    .nav-right a{
-        margin: 0px 2px;
-    }
-
-    .nav-right i{
-        font-size: 8px;
-    }
-
-    .volume{
-        background-color: hsl(0deg 0% 35%);
-        margin-left: 4px;
-        width: 42px;
-        height: 2px;
-        border-radius: 20px;
-        
-    }
+.header{
+    background-color: hsl(222deg 38% 5%);
+    height: 9vh;
+    width: 90%;
+    float: right;
 }
 
-@media screen and (min-width: 360px){
-    .header{
-        background-color: hsl(222deg 38% 5%);
-        height: 9vh;
-        width: 90%;
-        float: right;
-    }
+/*UTILITIES*/
+.white{
+    color: white;
+}
 
-    /*UTILITIES*/
-    .white{
-        color: white;
-    }
+.grey{
+    color: hsl(0deg 0% 56%);
+}
 
-    .grey{
-        color: hsl(0deg 0% 54%);
-    }
+.txtNONE{
+    text-decoration: none;
+}
 
-    .txtNONE{
-        text-decoration: none;
-    }
+.flex{
+    display: flex;
+}
 
-    .flex{
-        display: flex;
-    }
+.column{
+    flex-direction: column;
+}
 
-    .column{
-        flex-direction: column;
-    }
+.A-center{
+    align-items: center;
+}
 
-    .A-center{
-        align-items: center;
-    }
+.J-center{
+    justify-content: center;
+}
 
-    .J-center{
-        justify-content: center;
-    }
+.center{
+    text-align: center;
+}
 
-    .center{
-        text-align: center;
-    }
+/*CONTENT*/
 
-    /*CONTENT*/
-    .header a{
-        font-size: 50%;
-        border-radius: 20px;
-        border: 1px solid white;
-        padding: 10px 30px;
-        float: right;
-        margin: 14px 4px 0px 0px;
-        
-    }
-
-    /*main*/
-    .main{
-        float: right;
-        height: 87vh;
-        width: 90%;
-        overflow: auto;
-    }
-
-    nav{
-        height: 12%;
-    }
-
-    .main ul{
-        font-size: 7px;
-        list-style-type: none;
-        text-align: center;
-    }
-
-    .main li{
-        margin: 14px 21px;
-        display: inline-block;
-
-    }
-
-    .main a{
-        text-decoration: none;
-        color: hsl(214deg 3% 49%);
-    }
-
-    .evidenza{
-        padding-bottom: 3px;
-        border-bottom: 2px solid hsl(84deg 67% 51%);
-    }
-
-    .recently{
-        height: fit-content;
-        
-    }
-
-    .recently h1{
-        font-size: 16px;
-        margin: 12px 0px 9px 13px;
-    }
-
-    .musiche{
-        margin: 10px 13px;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .musiche img{
-        width: 100%;
-    }
-
-    .musica{
-        width: 48%;
-    }
-
-    .musica h1{
-        font-size: 11px;
-        margin-top: 12px;
-        margin-bottom: 6px;
-    }
-    .musica h2,.font{
-        font-size: 8px;
-        margin-bottom: 11px;
-    }
-
-    /*creato per Robin*/
-    #h1{
-        margin: 20px 0px 10px 0px;
-        font-size: 16px;
-    }
-
-    #altre-sezioni{
-        margin: 10px 0px;
-    }
-
-
-
-    /*left bar*/
-    .left-bar{
-        background-color: hsl(0deg 0% 0%);
-        height: 92vh;
-        justify-content: space-between;
-        
-    }
-
-    .left-bar i{
-        margin: 6px 0px 4px 0px;
-    }
-
-    .left-bar :nth-child(1){
-        font-size: 18px;
-    }
-
-    .left-bar :nth-child(2){
-        color: hsl(0deg 0% 82%);;
-    }
-
-    /*play-bar*/
-    .play-bar{
-        background-color: hsl(0deg 0% 16%);
-        height: 8vh;
-        width: 100%;
-        position: absolute;
-        flex-direction: row;
+.header a{
+    font-size: 70%;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px 40px;
+    float: right;
+    margin: 14px 4px 0px 0px;
     
-    }
-    /*nav-left*/
-    .nav-left-1{
-        margin-left: 10px;
-        align-items: center;
-    }
+}
 
-    .nav-left-1 img{
-        width: 18px;
-        height: 18px; 
-    }
+/*main*/
+.main{
+    float: right;
+    height: 87vh;
+    width: 90%;
+    overflow: auto;
+}
 
-    .nav-left-2{
-        margin: 0px 14px 0px 6px;
-        font-size: 10px;
-    }
+nav{
+    height: 10%;
+}
 
-    .nav-left-2 h1{
-        font-size: 8px;
-    }
+.main ul{
+    font-size: 12px;
+    list-style-type: none;
+    text-align: center;
+}
 
-    .nav-left-2 h2{
-        margin-top: 1px;
-        font-size: 7px;
-    }
-    /*nav-center*/
+.main li{
+    margin: 14px 13px;
+    display: inline-block;
 
-    .nav-center{
-        justify-content: center;
-    }
+}
 
-    .nav-center-top{
-        margin-left: 10px;
-        margin-top: 0px;
-        
-    }
+.main a{
+    text-decoration: none;
+    color: hsl(214deg 3% 49%);
+}
 
-    .nav-center-top a{
-        margin: 0px 6px;
-        font-size: 10px;
-    }
-
-    .arrow{
-        font-size: 24px;
-    }
-
-    #play{
-        font-size: 20px;
-        margin: 0px 20px;
-    }
-
-    .nav-center-bottom{
-        margin-left: 12px;
-        margin-top: 5px;
-    }
-
-    .nav-center-bottom p{
-        font-size: 6px;
-        margin:0px 4px;
-    }
-
-    .riproduzione{
-        background-color: hsl(0deg 0% 35%);
-        margin: 0px 8px;
-        width: 75px;
-        height: 3px;
-        border-radius: 20px;
-        
-    }
-
-    .caricamento,.volume-massimo{
-        border-radius: 20px;
-        height: 100%;
-        width: 20%;
-        background-color: hsl(0deg 0% 76%);
-    }
-
-    /*nav-right*/
-    .nav-right a{
-        margin: 0px 2px;
-    }
-
-    .nav-right i{
-        font-size: 8px;
-    }
-
-    .volume{
-        background-color: hsl(0deg 0% 35%);
-        margin-left: 4px;
-        width: 42px;
-        height: 2px;
-        border-radius: 20px;
-        
-    }
+.evidenza{
+    padding-bottom: 3px;
+    border-bottom: 2px solid hsl(84deg 67% 51%);
 }
 
 
+
+.recently h1{
+    font-size: 26px;
+    margin: 40px 0px 9px 16px;
+}
+
+.musiche{
+    margin: 10px 16px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.musiche img{
+    width: 100%;
+}
+
+.musica{
+    width: 14%;
+    margin-right: 20px;
+}
+
+.musica h1{
+    font-size: 15px;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.musica h2,.font{
+    font-size: 12px;
+    margin-bottom: 11px;
+}
+
+/*creato per Robin*/
+#h1{
+    margin: 20px 0px 10px 0px;
+    font-size: 16px;
+}
+
+#altre-sezioni{
+    margin: 10px 0px;
+}
+
+
+
+/*left bar*/
+.logo{
+    width: 80%;
+    margin: 20px 0px 10px 10px;
+}
+
+.left-bar{
+    background-color: hsl(0deg 0% 0%);
+    height: 92vh;
+    justify-content: space-between;
+    
+}
+
+.left-bar a{
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+.left-bar i{
+    margin: 6px 0px 4px 0px;
+    
+}
+
+.left-bar :nth-child(1){
+    font-size: 20px;
+    padding: 6px;
+    color: hsl(0deg 0% 82%);
+}
+
+.left-bar :nth-child(2){
+    color: hsl(0deg 0% 82%);;
+}
+
+.playlist{
+    font-size: 14px;
+    text-align: left;
+    margin:20px 0px 0px 6px
+}
+
+.nuova-playlist{
+    line-height: 30px;
+    font-size: 14px;
+    color: hsl(0deg 0% 56%);
+    margin-left: 6px;
+}
+
+#user{
+    padding: 8px;
+    border-top: 1px solid grey;
+}
+
+#testo{
+    font-size: 12px;
+    color: hsl(0deg 0% 56%);
+}
+
+.border{
+    border-left: 3px solid hsl(84deg 67% 51%);;
+}
+
+/*play-bar*/
+.play-bar{
+    background-color: hsl(0deg 0% 16%);
+    height: 8vh;
+    width: 100%;
+    position: absolute;
+    flex-direction: row;
+
+}
+/*nav-left*/
+.nav-left-1{
+    margin-left: 10px;
+    align-items: center;
+}
+
+.nav-left-1 img{
+    width: 40px;
+    height: 40px; 
+}
+
+.nav-left-2{
+    margin: 0px 14px 0px 10px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.nav-left-2 h1{
+    font-size: 12px;
+}
+
+.nav-left-2 h2{
+    margin-top: 1px;
+    font-size: 10px;
+}
+
+#H-F{
+    margin-left: 18px;
+}
+
+/*nav-center*/
+
+.nav-center{
+    justify-content: center;
+    width: 70%;
+    align-items: center;
+}
+
+
+.nav-center-top{
+    margin-left: 10px;
+    margin-top: 0px;
+    
+}
+
+.nav-center-top a{
+    margin: 0px 6px;
+    font-size: 18px;
+}
+
+.arrow{
+    font-size: 24px;
+}
+
+#play{
+    font-size: 28px;
+    margin: 0px 20px;
+}
+
+.nav-center-bottom{
+    margin-left: 12px;
+}
+
+.nav-center-bottom p{
+    font-size: 12px;
+    margin:0px 4px;
+}
+
+.riproduzione{
+    background-color: hsl(0deg 0% 35%);
+    margin: 2px 14px;
+    width: 220px;
+    height: 6px;
+    border-radius: 20px;
+    
+}
+
+.caricamento,.volume-massimo{
+    border-radius: 20px;
+    height: 100%;
+    width: 20%;
+    background-color: hsl(0deg 0% 76%);;
+}
+
+/*nav-right*/
+.nav-right a{
+    margin: 0px 10px;
+}
+
+.nav-right i{
+    font-size: 14px;
+}
+
+.volume{
+    background-color: hsl(0deg 0% 35%);
+    margin-left: 10px;
+    width: 100px;
+    height: 6px;
+    border-radius: 20px;
+}
