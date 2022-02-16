@@ -47,6 +47,10 @@ body{
     justify-content: center;
 }
 
+.center{
+    text-align: center;
+}
+
 /*CONTENT*/
 .header a{
     font-size: 80%;
@@ -100,11 +104,32 @@ nav{
     font-size: 26px;
 }
 
-.musica{
+.musiche{
     margin: 10px 20px;
-    border: 1px solid white;
     height: 100vh;
-    overflow: auto
+    justify-content: space-between;
+}
+
+.musiche img{
+    width: 100%;
+}
+
+
+.musica h1{
+    font-size: 17px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.musica h2{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.musica{
+  
 }
 
 /*left bar*/
