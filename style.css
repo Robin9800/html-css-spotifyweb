@@ -70,7 +70,7 @@ nav{
 }
 
 .main ul{
-    font-size: 14px;
+    font-size: 13px;
     list-style-type: none;
     text-align: center;
 }
@@ -119,7 +119,7 @@ nav{
     margin: 6px 0px 12px 0px;
 }
 
-.left-bar :first-child{
+.left-bar :nth-child(1){
     font-size: 24px;
 }
 
