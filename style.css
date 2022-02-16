@@ -15,7 +15,6 @@ body{
     height: 13vh;
     width: 90%;
     float: right;
- 
 }
 
 /*UTILITIES*/
@@ -98,16 +97,17 @@ nav{
 
 .recently{
     height: fit-content;
-    margin: 20px 0px 20px 20px;
+    
 }
 
 .recently h1{
     font-size: 26px;
+    margin: 6px 0px 12px 20px;
 }
 
 .musiche{
     margin: 10px 20px;
-    height: 100vh;
+    height: 0vh;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -125,10 +125,21 @@ nav{
     margin-top: 18px;
     margin-bottom: 10px;
 }
-.musica h2{
+.musica h2,.font{
     font-size: 13px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
+/*creato per Robin*/
+#h1{
+    margin: 20px 0px 10px 0px;
+}
+
+#altre-sezioni{
+    margin: 10px 0px;
+}
+
+
 
 /*left bar*/
 .left-bar{
