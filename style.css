@@ -67,6 +67,7 @@ body{
     float: right;
     height: 87vh;
     width: 90%;
+    overflow: auto;
 }
 
 nav{
@@ -108,12 +109,16 @@ nav{
     margin: 10px 20px;
     height: 100vh;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .musiche img{
     width: 100%;
 }
 
+.musica{
+    width: 50%;
+}
 
 .musica h1{
     font-size: 17px;
@@ -123,13 +128,6 @@ nav{
 .musica h2{
     font-size: 13px;
     margin-bottom: 40px;
-}
-
-
-
-
-.musica{
-  
 }
 
 /*left bar*/
