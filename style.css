@@ -6,7 +6,7 @@
 
 /*GENERICS*/
 body{
-    background-color: hsl(219deg 26% 11%);
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
 }
     
@@ -56,7 +56,7 @@ body{
 .header a{
     font-size: 70%;
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid hsl(210deg 2% 82%);
     padding: 10px 40px;
     float: right;
     margin: 14px 4px 0px 0px;
@@ -69,6 +69,7 @@ body{
     height: 87vh;
     width: 90%;
     overflow: auto;
+    background-color: hsl(219deg 26% 11%);
 }
 
 nav{
@@ -310,4 +311,118 @@ nav{
     width: 100px;
     height: 6px;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 570.40px){
+
+    .main,.header{
+        width: 74%;
+    }
+
+    .header a {
+        font-size: 48%;
+        padding: 10px 30px;
+    }
+
+    .musica{
+        margin-right: 4px;
+        width: 22%;
+    }
+
+    .recently h1 {
+        font-size: 16px;
+    }
+
+    .musica h1 {
+        font-size: 10px;
+    }
+
+    .musica h2, .font {
+        font-size: 8px;
+    }
+
+    .main ul {
+        font-size: 9px;
+    }
+
+    .main li {
+        margin: 14px 8px;
+    }
+
+    .nav-left-1 img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .nav-left-2 {
+        margin: 0px 0px 0px 6px;
+        font-size: 10px;
+    }
+
+    .nav-left-2 h1 {
+        font-size: 8px;
+    }
+
+    .nav-left-2 h2 {
+        font-size: 6px;
+    }
+
+    .nav-center{
+        width: 52%;
+    }
+
+    .nav-center-top{
+        margin-bottom: 6px;
+    }
+
+    .nav-center-top a {
+        margin: 0px 6px;
+        font-size: 10px;
+    }
+
+    #play {
+        font-size: 22px;
+        margin: 0px 16px;
+    }
+
+    .nav-center-bottom p {
+        font-size: 6px;
+        margin: 0px 0px;
+    }
+
+    .nav-right i {
+        font-size: 8px;
+    }
+
+    .nav-right a {
+        margin: 0px 5px;
+    }
+
+    .riproduzione{
+        height: 2px;
+        width: 170px;
+    }
+    .volume {
+    margin-left: 0px;
+    width: 60px;
+    height: 2px;
+    }
+
+    .left-bar :nth-child(1) {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .playlist {
+        font-size: 12px;
+    }
+
+    .nuova-playlist {
+        font-size: 10px;
+    }
+
+    .logo {
+        margin: 6px 0px 10px 0px;
+    }
+    
 }
