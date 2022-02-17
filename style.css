@@ -395,7 +395,7 @@ nav{
     }
 
     .nav-right a {
-        margin: 0px 5px;
+        margin: 0px 4px;
     }
 
     .riproduzione{
@@ -425,4 +425,54 @@ nav{
         margin: 6px 0px 10px 0px;
     }
     
+}
+@media screen and (max-width: 440.40px){
+    .main, .header {
+        width: 64%;
+    }
+
+    #testo {
+        font-size: 10px;
+    }
+
+    #user {
+        padding: 0px;
+    }
+    .playlist {
+        font-size: 10px;
+    }
+    .nuova-playlist {
+        font-size: 8px;
+    }
+
+    .musica {
+        margin-right: 10px;
+        width: 42%;
+    }
+    .riproduzione {
+        height: 3px;
+        width: 120px;
+    }
+    .volume {
+        margin-left: 0px;
+        width: 54px;
+        height: 2px;
+    }
+
+    .nav-center-top {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .nav-center-bottom {
+        margin-left: 4px;
+    }
+    .nav-left-2 {
+        margin: 0px 0px 0px 2px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    .nav-left-1 img {
+        width: 26px;
+        height: 26px;
+    }
 }
