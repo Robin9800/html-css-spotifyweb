@@ -19,6 +19,9 @@ body{
 }
 
 /*UTILITIES*/
+.wrap{
+    flex-wrap: wrap;
+}
 .white{
     color: white;
 }
@@ -148,9 +151,17 @@ nav{
     margin: 20px 0px 10px 10px;
 }
 
+.altro-logo{
+    visibility: hidden;
+}
+
+.icona{
+    display: flex;
+    align-items: center;
+}
 .left-bar{
     background-color: hsl(0deg 0% 0%);
-    height: 92vh;
+    height: 89vh;
     justify-content: space-between;
     
 }
@@ -163,19 +174,24 @@ nav{
 
 .left-bar i{
     margin: 6px 0px 4px 0px;
+    font-size: 20px;
+    padding: 6px;
+    color: hsl(0deg 0% 36%);
+    margin-left: 1px;
     
 }
 
 .left-bar :nth-child(1){
-    font-size: 20px;
-    padding: 6px;
-    color: hsl(0deg 0% 82%);
+    
 }
 
 .left-bar :nth-child(2){
     color: hsl(0deg 0% 82%);;
 }
 
+#home{
+    color: hsl(0deg 0% 82%);
+}
 .playlist{
     font-size: 14px;
     text-align: left;
@@ -206,7 +222,7 @@ nav{
 /*play-bar*/
 .play-bar{
     background-color: hsl(0deg 0% 16%);
-    height: 8vh;
+    height: 11vh;
     width: 100%;
     position: absolute;
     flex-direction: row;
@@ -357,6 +373,7 @@ nav{
     .nav-left-2 {
         margin: 0px 0px 0px 6px;
         font-size: 10px;
+        flex-direction: column;
     }
 
     .nav-left-2 h1 {
@@ -455,7 +472,7 @@ nav{
     }
     .volume {
         margin-left: 0px;
-        width: 54px;
+        width: 50px;
         height: 2px;
     }
 
@@ -475,4 +492,52 @@ nav{
         width: 26px;
         height: 26px;
     }
+}
+@media screen and (max-width: 360.40px){
+    .volume {
+        margin-right: 8px;
+        width: 43px;
+        height: 2px;
+    }
+    .nav-center-top a {
+        font-size: 8px;
+    }
+    .riproduzione {
+        width: 100px;
+    }
+    .nav-left-1 img {
+        width: 20px;
+        height: 20px;
+    }
+    .logo,.playlist,.nuova-playlist{
+        display: none;
+    }
+    .altro-logo{
+        visibility: visible;
+    }
+    .main, .header {
+        width: 90%;
+    }
+    .left-bar {
+        height: 87vh;
+    }
+    .left-bar a{
+        display: none;
+    }
+    .left-bar i {
+        margin: -3px 0px 5px 7px;
+        padding: 0px;
+    }
+   
+    .left-bar :nth-child(1) {
+        margin-left: 0px;
+    }
+    .border {
+        border-left: none;
+    }
+    
+    .play-bar{
+        height: 10vh;
+    }
+  
 }
