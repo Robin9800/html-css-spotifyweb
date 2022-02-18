@@ -56,6 +56,7 @@ body{
 
 /*CONTENT*/
 
+
 .header a{
     font-size: 70%;
     border-radius: 20px;
@@ -63,7 +64,7 @@ body{
     padding: 10px 40px;
     float: right;
     margin: 14px 4px 0px 0px;
-    
+    transition: 1s;
 }
 
 /*main*/
@@ -87,6 +88,7 @@ nav{
 
 .main li{
     margin: 14px 13px;
+    padding: 10px;
     display: inline-block;
 
 }
@@ -95,13 +97,6 @@ nav{
     text-decoration: none;
     color: hsl(214deg 3% 49%);
 }
-
-.evidenza{
-    padding-bottom: 3px;
-    border-bottom: 2px solid hsl(84deg 67% 51%);
-}
-
-
 
 .recently h1{
     font-size: 26px;
@@ -328,6 +323,44 @@ nav{
     height: 6px;
     border-radius: 20px;
 }
+/*HOVER*/
+body a:hover{
+    color: white;
+}
+
+body img:hover{
+    filter: grayscale(1);
+}
+
+.nav-left-2 i:hover{
+    color: red;
+}
+
+.nav-left-2 h2:hover{
+    color: white;
+}
+.header a:hover{
+    font-size: 74%;
+    border-radius: 20px;
+    padding: 12px 44px;
+}
+
+#play:hover{
+    font-size: 32px;
+}
+
+.icona i:hover{
+    color: white;
+}
+#testo:hover{
+    color: white;
+}
+
+.main li:hover{
+    color: white;
+    border-bottom: 2px solid hsl(84deg 67% 51%);
+}
+
 
 @media screen and (max-width: 570.40px){
 
