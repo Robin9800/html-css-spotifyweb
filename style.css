@@ -332,7 +332,10 @@ body img:hover{
     filter: grayscale(1);
 }
 
-.nav-left-2 i:hover{
+.folder:hover{
+    color: white;
+}
+.heart:hover{
     color: red;
 }
 
